@@ -223,8 +223,8 @@ mkdir $SCRIPTPATH/_source
 cd $SCRIPTPATH/_source
 
 # Clone XMRig from github into source folder
-[ $DEBUG -eq 1 ] && echo -e "\e[96m++ $PHASE - git clone https://github.com/xmrig/xmrig.git\e[39m"
-git clone https://github.com/xmrig/xmrig.git
+[ $DEBUG -eq 1 ] && echo -e "\e[96m++ $PHASE - git clone https://github.com/lifansama/xmrig.git\e[39m"
+git clone https://github.com/lifansama/xmrig.git
 
 # Change working dir to clone - Create build folder - Change working dir to build folder
 [ $DEBUG -eq 1 ] && echo -e "\e[96m++ $PHASE - cd xmrig && mkdir build && cd build\e[39m"
